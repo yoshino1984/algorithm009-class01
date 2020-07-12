@@ -84,4 +84,24 @@ class Trie {
         }
 
     }
+
+    public static void main(String[] args) {
+        int x = 21;
+        System.out.println(x & -x);
+        System.out.println(Integer.toBinaryString(x));
+        System.out.println(Integer.toBinaryString(-x));
+        System.out.println(func(9999));
+
+    }
+
+    static int func(int x)
+    {
+        int countx = 0;
+        while(x != 0)
+        {
+            countx++;
+            x = x&(x-1);
+        }
+        return countx;
+    }
 }

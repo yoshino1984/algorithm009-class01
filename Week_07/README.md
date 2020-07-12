@@ -11,3 +11,6 @@ makeSet(s) 建立集合
 unionSet(x,y) 合并集合
 find(x) 找到元素x所在的集合的代表
 
+高级搜索
+剪枝
+
